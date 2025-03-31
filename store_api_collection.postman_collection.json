@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "8da04469-234a-4df7-8136-4572b6e3c11f",
+		"name": "store_api_collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42741003"
+	},
+	"item": [
+		{
+			"name": "localhost/PhpApiExample/api/Product/1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/PhpApiExample/api/Product/1",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"PhpApiExample",
+						"api",
+						"Product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/PhpApiExample/api/Product",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"test\",\r\n  \"midterm\": 80,\r\n  \"final\": 90\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/PhpApiExample/api/Product",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"PhpApiExample",
+						"api",
+						"Product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/PhpApiExample/api/Product/LatestPrice",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/PhpApiExample/api/Product/LatestPrice",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"PhpApiExample",
+						"api",
+						"Product",
+						"LatestPrice"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
